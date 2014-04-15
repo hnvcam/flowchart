@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demonstration for Flow Chart</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="../FlowChart.js"></script>
+	<link rel="stylesheet" href="../FlowChart.css" />
+	<style type="text/css">
+		#target {
+			width: 800px;
+			height: 200px;
+		}
+	</style>
+</head>
+<body>
+	<ul id="source">
+		<li>Item 1</li>
+		<li>Item 2</li>
+		<li>Item 3</li>
+	</ul>
+	
+	<br/>
+	
+	<div id="target">
+	</div>
+
+<script type="text/javascript">
+	$(function() {
+		$('#source').flowChart('#target');
+	});
+</script>
+
+</body>
+</html>
