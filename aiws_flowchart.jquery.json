@@ -1,0 +1,30 @@
+{
+	"name": "aiws_flowchart",
+	"version": "1.0.0",
+	"title": "Flow Chart",
+	"author": { 
+		"name": "Cam Hoang",
+		"email": "hnvcam@gmail.com",
+		"url": "http://wiki.aiwsolutions.net"
+	},
+	"licenses": [
+		{
+			"type": "GPLv2",
+			"url": "http://www.example.com/licenses/gpl.html"
+		}
+	],
+	"dependencies": { 
+		"jquery": "1.x" 
+	},
+	"description": "Simple jQuery plugin to render flow chart from existing html <ul> and <li> tags. Very easy to use.",
+	"keywords": [
+		"flow", 
+		"chart",
+		"process"
+	],
+	"homepage": "http://wiki.aiwsolutions.net/PXR4E",
+	"docs": "http://wiki.aiwsolutions.net/PXR4E",
+	"demo": "http://wiki.aiwsolutions.net/PXR4E",
+	"download": "https://github.com/hnvcam/flowchart",
+	"bugs": "https://github.com/hnvcam/flowchart/issues"
+}
